@@ -1,17 +1,37 @@
-# profile
+# Profile Flutter App
 
-A new Flutter project.
+A simple Flutter application that demonstrates navigation between two screens and displays two user profile cards — one using a **local image** and another using a **network image**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Home screen with a button to navigate to the profile screen.
+- Profile screen with:
+  - A **local profile card** (using an image from `assets/`).
+  - A **network profile card** (using a direct image URL).
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Home Screen
+- Contains a button: **"Go to Profile"**.
+- Navigates to the profile screen on tap.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Profile
+### 2. Profile Screen
+- Shows two profile cards:
+  - **Local Image Card**:
+    - Name: Raghad (Local)
+    - Email: raghad.local@example.com
+    - Image source: `assets/profile.png`
+  - **Network Image Card**:
+    - Name: Abeer
+    - Email: Abeer@gmail.com
+    - Image source: https://cdn-icons-png.flaticon.com/512/8847/8847419.png
+
+## Screenshot
+<img width="494" alt="home" src="https://github.com/user-attachments/assets/56e9e91d-28e5-4e60-bc80-28aa82e5bb24" />
+
+
+
+<img width="498" alt="profile" src="https://github.com/user-attachments/assets/9a778532-edbf-4077-a209-8bc47e6c05e5" />
+
+
+
